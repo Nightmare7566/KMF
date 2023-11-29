@@ -312,11 +312,12 @@ button {
 
 .aboutfond {
 	display: flex;
-	width: 145px;
+	width: 160px;
 	align-items: center;
 	gap: 15px;
 	height: 44px;
 	margin-top: 131px;
+	margin-right: 45px;
 }
 
 .fondimg {
@@ -389,4 +390,192 @@ button {
 	margin-bottom: 145px;
 }
 
-.one {}
+.fond__facility {
+	border-bottom: 1px solid #7C7C7C;
+
+}
+
+.facility__title {
+	color: var(--gray-1, #393939);
+	font-family: RF Dewi Extended;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+.fac {
+	margin-top: 0;
+
+	width: 260px;
+}
+
+.aboutfond__text {
+	color: var(--gray-1, #393939);
+	font-family: RF Dewi Extended;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.32px;
+	text-transform: uppercase;
+}
+
+
+.facility {
+	border-bottom: 1px solid #7C7C7C;
+}
+
+
+
+.event {
+	padding: 60px 35px 60px 0;
+	border-right: 1px solid #7C7C7C;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 695px;
+	/* align-items: flex-start;
+	gap: 5px; */
+}
+
+
+
+.event__title {
+	display: inline-block;
+	color: var(--gray-1, #393939);
+	font-family: RF Dewi Extended;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+
+	/* 0px */
+	letter-spacing: 0.6px;
+	text-transform: uppercase;
+}
+
+.bot {
+	display: flex;
+	align-items: flex-end;
+	gap: 87px;
+}
+
+.event__descr {
+	color: #595959;
+	font-family: RF Dewi Extended;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 169.5%;
+	/* 23.73px */
+}
+
+.event__img {
+	width: 110px;
+}
+
+.photo {
+	width: 655px;
+}
+
+.right {
+	border: none;
+}
+
+.pad {
+	padding-left: 40px;
+}
+
+
+.photo-main {
+	border-bottom: 1px solid #7C7C7C;
+	padding-top: 120px;
+}
+
+.photo__title {
+	color: var(--gray-1, #393939);
+	font-family: RF Dewi Extended;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+
+.phot {
+	margin-top: 0;
+	width: 170px;
+}
+
+.photogallery {
+	padding: 45px 0px 50px;
+	border-bottom: 1px solid #7C7C7C;
+}
+
+.event-pic {
+	width: 130px;
+}
+
+.marg {
+	padding-top: 150px;
+	padding-bottom: 55px;
+}
+
+
+.bnews {
+	border-bottom: 1px solid #7C7C7C;
+}
+
+.bnews__item {
+	padding-top: 40px;
+	padding-right: 45px;
+	display: inline-block;
+	border-right: 1px solid #7C7C7C;
+
+}
+
+.bnews__img {
+	width: 390px;
+	margin-bottom: 45px;
+}
+
+.nopad {
+	padding-left: 0px;
+}
+
+.bnews__title {
+	color: var(--gray-1, #393939);
+	font-family: RF Dewi Extended;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.4px;
+	text-transform: uppercase;
+	width: 215px;
+	margin-bottom: 20px;
+}
+
+.bnews__descr {
+	color: #595959;
+	font-family: RF Dewi Extended;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 169.5%;
+	/* 23.73px */
+	width: 345px;
+	margin-bottom: 65px;
+}
+
+
+
+
+.noborder {
+	border: none;
+}
